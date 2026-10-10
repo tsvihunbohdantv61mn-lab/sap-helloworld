@@ -1,0 +1,12 @@
+<mvc:View
+    controllerName="com.kpi.helloworld.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <Text id="helloWorldText" text="Hello World!" />
+        </content>
+    </Page>
+
+</mvc:View>
